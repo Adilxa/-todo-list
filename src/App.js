@@ -1,10 +1,9 @@
 import Header from './components/header/Header';
-import Input from './components/input/Input';
 import './App.css';
 import CreateTodo from './components/create-todo/Create-todo';
 import Todo from './components/todo/Todo';
 import React from 'react';
-import { logDOM } from '@testing-library/react';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -84,7 +83,7 @@ class App extends React.Component {
   render() {
     if(this.state.isLoading){
       return <div className='loader'>
-       <img src='https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif'/>
+       <img src='https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif' alt='#'/>
       </div>
     }
     return (
