@@ -15,7 +15,6 @@ constructor(props){
     
 }
 handleChange(e){
-    console.log(e.target.value)
     this.setState({inputValue:e.target.value})
 }
 
@@ -25,6 +24,7 @@ submit(e){
     this.props.createTodo(this.state.inputValue);
     this.setState({inputValue:""})
 }
+
 
 render(){
     return (
@@ -43,19 +43,6 @@ render(){
 }
 }
  
-// function CreateTodo ()  {
-//     function submit(e){
-//         e.preventDefault();
-//         console.log(e);
-
-//     }
-//     return (
-//         <form onSubmit={submit} className="input-group"> 
-//         <input type="text" className="form-control" placeholder="Enter your Todo"/> 
-//         <button type="submit" className="btn btn-primary">Submit</button> 
-//         </form>
-//     );
-// }
 export default CreateTodo;
 
 

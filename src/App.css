@@ -53,4 +53,16 @@
 }
 .line{
   text-decoration: line-through;
+ 
+}
+
+#trashImg{
+  cursor:pointer;
+}
+.loader>img{
+  width: 100%;
+}
+.loader{
+width: 150px;
+margin: 200px auto;
 }
