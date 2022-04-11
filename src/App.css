@@ -67,4 +67,11 @@ width: 150px;
 margin: 200px auto;
 }
 
+@media(max-width: 576px){
+  .App{
+    width: 300px;
+  }
 
+
+
+}
