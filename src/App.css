@@ -67,10 +67,10 @@ width: 150px;
 margin: 200px auto;
 }
 
-@media(max-width: 576px){
-  .App{
-    width: 300px;
-  }
+@media(max-width: 578px){
+    .todo-wrapper{
+      width: fit-content;
+    }
 
 
 
