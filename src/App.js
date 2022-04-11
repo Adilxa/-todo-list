@@ -83,7 +83,7 @@ class App extends React.Component {
   render() {
     if(this.state.isLoading){
       return <div className='loader'>
-       <img src='https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif' alt='#'/>
+       <img src='https://i0.wp.com/apptractor.ru/wp-content/uploads/2017/04/spinner-icon-0.gif?fit=1567%2C1561&ssl=1' alt='#'/>
       </div>
     }
     return (

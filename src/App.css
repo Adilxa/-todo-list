@@ -63,15 +63,12 @@
   width: 100%;
 }
 .loader{
-width: 150px;
-margin: 200px auto;
+width: 180px;
+margin: 250px auto;
 }
 
 @media(max-width: 578px){
     .todo-wrapper{
       width: fit-content;
     }
-
-
-
 }
